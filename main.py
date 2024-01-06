@@ -36,7 +36,7 @@ class Planet:
 
 
 class Spacecraft:
-    def __init__(self, x, y, prev_x, prev_y, vel_x, vel_y, mass):
+    def __init__(self, x, y, vel_x, vel_y, mass):
         self.x = x
         self.y = y
         self.vel_x = vel_x
