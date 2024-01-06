@@ -97,7 +97,7 @@ def create_ship(mouse, start):
     vel_x = vel * math.cos(angle)
     vel_y = vel * math.sin(angle)
 
-    obj = Spacecraft(m_x, m_y, s_x, s_y, vel_x, vel_y, SHIP_MASS)
+    obj = Spacecraft(m_x, m_y, vel_x, vel_y, SHIP_MASS)
 
     return obj
 
